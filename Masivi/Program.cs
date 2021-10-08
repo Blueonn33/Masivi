@@ -8,7 +8,7 @@ namespace Masivi
         {
             // 1-ва задача
 
-            /*Console.Write("Въведете число: ");
+            Console.Write("Въведете число: ");
             int number = int.Parse(Console.ReadLine());
             int numberr;
             int sum = 0;
@@ -28,7 +28,7 @@ namespace Masivi
             else
             {
                 Console.WriteLine("Числото {0} не е палиндром",temp);
-            }*/
+            }
 
         }
     
@@ -36,7 +36,7 @@ namespace Masivi
         {
             // 2-ра задачаа
 
-            /*int[] nums = new int[] { 1, 2, 3, 4, 5, 6 };
+            int[] nums = new int[] { 1, 2, 3, 4, 5, 6 };
 
             for (int i = 0; i < nums.Length; i++)
             {
@@ -56,13 +56,13 @@ namespace Masivi
             }
 
             Console.WriteLine("\nНай-голяма стойност: " + value);
-            Console.WriteLine("\nВтора най-голяма стойност: " + nums[index]);*/
+            Console.WriteLine("\nВтора най-голяма стойност: " + nums[index]);
         }
         static void DoublingTheEven()
         {
             // З-та задача
 
-            /*int[] nums = new int[] { 2, 4, 6, 17, 33, 11 };
+            int[] nums = new int[] { 2, 4, 6, 17, 33, 11 };
 
             for (int i = 0; i < nums.Length; i++)
             {
@@ -79,13 +79,13 @@ namespace Masivi
                     int s = n * 2;
                     Console.WriteLine("Числото {0} * 2 е равно на {1}", n, s);
                 }
-            }*/
+            }
         }
         static void SortedArray()
         {
             // 4-та задача
 
-            /*int[] arr = new int[] { 11, 33, 17, 66, 21, 77 };
+            int[] arr = new int[] { 11, 33, 17, 66, 21, 77 };
             int n = arr.Length;
             if (arraySortedOrNot(arr, n) != 0)
             {
@@ -95,13 +95,13 @@ namespace Masivi
             else
             {
                 Console.WriteLine("Масивът не е сортиран");
-            }*/
+            }
         }
         static int arraySortedOrNot(int[] arr, int n)
         {
             // 4-та задача (останалата част)
 
-            /*if (n == 1 || n == 0)
+            if (n == 1 || n == 0)
             {
                 return 1;
             }
@@ -111,13 +111,13 @@ namespace Masivi
                 return 0;
             }
 
-            return arraySortedOrNot(arr, n - 1);*/
+            return arraySortedOrNot(arr, n - 1);
         }
         static void SequenceOfElements()
         {
             // 5-та задача
 
-            /*int count = 1;
+            int count = 1;
             int tempCount = 1;
             int number = 0;
 
@@ -153,7 +153,7 @@ namespace Masivi
             for (int i = 0; i < count; i++)
             {
                 Console.Write("{0}; ", number);
-            }*/
+            }
         }
 
     }
