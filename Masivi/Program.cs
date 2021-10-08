@@ -85,7 +85,7 @@ namespace Masivi
         {
             // 4-та задача
 
-            int[] arr = new int[] { 11, 33, 17, 66, 21, 77 };
+            /*int[] arr = new int[] { 11, 33, 17, 66, 21, 77 };
             int n = arr.Length;
             if (arraySortedOrNot(arr, n) != 0)
             {
@@ -95,13 +95,13 @@ namespace Masivi
             else
             {
                 Console.WriteLine("Масивът не е сортиран");
-            }
+            }*/
         }
         static int arraySortedOrNot(int[] arr, int n)
         {
             // 4-та задача (останалата част)
 
-            if (n == 1 || n == 0)
+            /*if (n == 1 || n == 0)
             {
                 return 1;
             }
@@ -111,7 +111,7 @@ namespace Masivi
                 return 0;
             }
 
-            return arraySortedOrNot(arr, n - 1);
+            return arraySortedOrNot(arr, n - 1);*/
         }
         static void SequenceOfElements()
         {
